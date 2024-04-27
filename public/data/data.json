@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Seaside Retreat",
+    "image": "/data/seaside_retreat.jpg",
+    "segment_name": "Coastal",
+    "description": "Picturesque land with direct access to a private beach, ideal for building a seaside retreat.",
+    "price": "$1,500,000",
+    "status": "sale",
+    "area": "6000 sq fit",
+    "location": "Malibu, California",
+    "facilities": ["Beach Access", "Panoramic Views"],
+    "view_property_button": "View Property"
+  },
+  {
+    "id": 2,
+    "estate_title": "Mountain Escape",
+    "image": "/data/mountain_escape.jpg",
+    "segment_name": "Mountain",
+    "description": "Scenic mountain land surrounded by nature trails and stunning views, perfect for a mountain getaway.",
+    "price": "$800,000",
+    "status": "rent",
+    "area": "5000 sq fit",
+    "location": "Aspen, Colorado",
+    "facilities": ["Hiking Trails", "Mountain Views"],
+    "view_property_button": "View Property"
+  },
+  {
+    "id": 3,
+    "estate_title": "Riverside Haven",
+    "image": "/data/riverside_haven.jpg",
+    "segment_name": "Countryside",
+    "description": "Tranquil land with a riverfront setting, offering serenity and privacy for your countryside retreat.",
+    "price": "$600,000",
+    "status": "sale",
+    "area": "3000 sq fits",
+    "location": "Lake District, England",
+    "facilities": ["River Access", "Woodland Area"],
+    "view_property_button": "View Property"
+  },
+  {
+    "id": 4,
+    "estate_title": "Mountain View Retreat",
+    "image": "/data/mountain_view_retreat.jpg",
+    "segment_name": "Mountain",
+    "description": "Tranquil land with stunning mountain vistas, offering a peaceful setting for your mountain retreat.",
+    "price": "$900,000",
+    "status": "sale",
+    "area": "15000 sq fit",
+    "location": "Rocky Mountains, Colorado",
+    "facilities": ["Mountain Views", "Hiking Trails"],
+    "view_property_button": "View Property"
+  }
+]
