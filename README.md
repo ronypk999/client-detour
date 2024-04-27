@@ -1,6 +1,6 @@
-# REAL ESTATE - BD LANDS
+# DeTour - Tour management platform
 
-The real-estate website was built using react with many npm packages. some of them are
+The Tour management platform was built using react with many npm packages. some of them are
 
 - [React-hook-from](https://react-hook-form.com/) for forms data validation
 - [Swiper Slider](https://swiperjs.com/) for sldiers
@@ -9,8 +9,8 @@ The real-estate website was built using react with many npm packages. some of th
 Five bullet points
 
 - Firebase authentication
-- land Ads posting
-- View real-estate land sale/rent ads
+- Tour spots complete management
+- View Spots by filtering with average cost and countries
 - Responsive design for all devices
 - night and day mode
 
