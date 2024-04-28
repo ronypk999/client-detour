@@ -30,8 +30,7 @@ const Home = () => {
         <h1 className="text-4xl font-bold py-6 text-center">Places to Visit</h1>
         <div className="flex justify-around gap-12 flex-wrap">
           {spots.map((data, index) => {
-            console.log(data);
-            return <Estate key={data.id} data={data} index={index}></Estate>;
+            return <Estate key={data._id} data={data} index={index}></Estate>;
           })}
         </div>
         <div className="text-center pt-12">

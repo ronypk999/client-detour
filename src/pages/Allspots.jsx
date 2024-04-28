@@ -2,6 +2,7 @@ import Estate from "../components/estate/Estate";
 import { useLoaderData, useParams } from "react-router-dom";
 import Sort from "../components/sort/Sort";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Allspots = () => {
   const [spots, setSpots] = useState(JSON.parse(useLoaderData()));
@@ -19,6 +20,11 @@ const Allspots = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          {country ? `Tourist Spots By ${country}` : "All Tourist Spots"}
+        </title>
+      </Helmet>
       <div className="px-3 md:px-6 lg:px-12 pt-12">
         <h1 className="text-4xl font-bold py-6 text-center">
           {country ? `Tourist Spots By ${country}` : "All Tourist Spots"}

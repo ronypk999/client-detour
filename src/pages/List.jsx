@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
+import { Helmet } from "react-helmet";
 
 const List = () => {
   const [spots, setSpots] = useState([]);
@@ -38,6 +39,9 @@ const List = () => {
   }, [user]);
   return (
     <>
+      <Helmet>
+        <title>My listings</title>
+      </Helmet>
       <ToastContainer></ToastContainer>
       <div className="px-3 md:px-6 lg:px-12 pt-12">
         <h1 className="text-4xl font-bold py-6 text-center">

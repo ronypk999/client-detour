@@ -4,8 +4,7 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "**/B9A9-B9--Real-estate/**"
+      "**/node_modules/**"
     ],
     "rewrites": [
       {

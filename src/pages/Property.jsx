@@ -24,7 +24,7 @@ const Property = () => {
   return (
     <>
       <Helmet>
-        <title>View Property</title>
+        <title>View Details</title>
       </Helmet>
       <NotifyLogin></NotifyLogin>
       <div
